@@ -8,7 +8,7 @@ const password = process.env.NODE_MAILER_PASSWORD;
 const port = process.env.PORT;
 // middleware
 const corsOptions = {
-  origin: "http://localhost:3000" // frontend URI (ReactJS)
+  origin: "https://rjlportfolio.onrender.com" // frontend URI (ReactJS)
 }
 // Use CORS middleware to allow requests from your React app's domain
 app.use(cors(corsOptions));
