@@ -1,0 +1,23 @@
+footer .container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+p {
+  margin: 0;
+}
+
+.css-17uklte svg {
+  margin: 0 5px;
+}
+
+.bg {
+  background-color: #222831;
+}
+
+@media screen and (max-width: 900px) {
+  footer {
+    position: unset;
+  }
+}
+
