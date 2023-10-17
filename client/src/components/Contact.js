@@ -30,7 +30,7 @@ const Contact = () => {
     setSubmitting(true);
 
     axios
-      .post("http://localhost:5000/submit-form", data) // Send a POST request to your Express.js server
+      .post("https://rjportfolio.onrender.com/submit-form", data) // Send a POST request to your Express.js server
       .then((response) => {
         setOpen(true);
         reset();
