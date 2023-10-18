@@ -12,10 +12,14 @@ const Home = () => {
             <h3>Full Stack Developer</h3>
           </div>
           <div className="d-block left">
+            <a href="/contact">
             <button className="btn btn-lg mr-3 btn-m home-btn">
               Hire Me
             </button>
+            </a>
+            <a href="/projects">
             <button className="btn btn-secondary btn-lg">Projects</button>
+            </a>
           </div>
         </div>
         <div className="col-md-6">
