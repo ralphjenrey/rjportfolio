@@ -21,3 +21,12 @@ p {
   }
 }
 
+.my-svg {
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Change the color to #6c757d on hover */
+.my-svg:hover path {
+  fill: #6c757d;
+}
+
