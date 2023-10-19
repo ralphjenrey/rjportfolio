@@ -12,7 +12,7 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 export default function App() {
   return (
-    <Router basename="rjlportfolio.onrender.com">
+    <Router>
       <div className="App custom-background">
         <Header />
         <Routes>
