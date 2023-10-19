@@ -12,16 +12,16 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 export default function App() {
   return (
-    <Router>
+    <Router basename="rjlportfolio.onrender.com">
       <div className="App custom-background">
         <Header />
         <Routes>
-          <Route path="rjlportfolio.onrender.com/about" element={<About />} />
+         
   <Route path="/about" element={<About />} />
-          <Route path="rjlportfolio.onrender.com/projects" element={<Projects />} />
+        
   <Route path="/projects" element={<Projects />} />
           <Route path="/" element={<Home />} />
-          <Route path="rjlportfolio.onrender.com/contact" element={<Contact />} />
+         
   <Route path="/contact" element={<Contact />} />
         </Routes>
         <ParticlesBackground />
