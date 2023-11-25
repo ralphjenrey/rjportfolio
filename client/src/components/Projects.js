@@ -91,6 +91,26 @@ const Projects = () => {
               </div>
             </div>
 
+    
+ <div className="col">
+              <div className="card shadow-sm">
+                <img className="project-img" src="https://github.com/ralphjenrey/eCommerce/blob/main/src/assets/Screenshot%202023-11-24%20162238.png?raw=true" alt='Project' />
+                <div className="card-body">
+                  <p className="card-text">
+                    Ecommerce with Firebase
+                  </p>
+                  <div className="d-flex justify-content-between align-items-center">
+                    <div className="btn-group">
+                      <button type="button" className="btn btn-sm btn-outline-secondary">
+                      <a href="https://github.com/ralphjenrey/eCommerce" target="_blank">GitHub</a>
+                      </button>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+
            
                     
                
