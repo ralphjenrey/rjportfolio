@@ -113,7 +113,7 @@ const Projects = () => {
 
             <div className="col">
               <div className="card shadow-sm">
-                <img className="project-img" src="https://github.com/ralphjenrey/react-js-ralphLibary/raw/main/sample%20screenshots/Screenshot%202024-01-01%20202404.png?raw=true" alt='Project' />
+                <img className="project-img" src="https://raw.githubusercontent.com/ralphjenrey/react-js-ralphLibary/main/sample%20screenshots/Screenshot%202024-01-01%20202404.png?token=GHSAT0AAAAAACLDWKLYDZE2A4HTGA6572G4ZMS5NXA" alt='Project' />
                 <div className="card-body">
                   <p className="card-text">
                     React Js Library Management System
